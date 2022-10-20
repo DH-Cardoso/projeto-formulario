@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <header>
+        <h1>Formulário de Pesquisa freeCodeCamp</h1>
+        <p>Obrigado por dedicar seu tempo para nos ajudar a melhorar a plataforma</p>
+    </header>
+
+    <main>
+        <form action="#" name="form" id="iform" autocomplete="on" method="post">
+            <div>
+                <label for="inome">Nome</label> <br>
+                <input type="text" name="nome" id="inome" value="Digite seu nome">
+            </div>
+            <div>
+                <label for="iemail">E-mail</label> <br>
+                <input type="email" name="email" id="iemal" value="Digite seu e-mail">
+            </div>
+            <div>
+                <label for="iera">Era</label>
+                <span>(opcional)</span> <br>
+                <input type="number" name="era" id="iera" min="10" max="99" value="Era">
+            </div>
+            <div>
+                <p>Qual opção melhor descreve sua função atual?</p> <br>
+                <select name="funcao" id="ifuncao">
+                    <option disabled="" selected="" value="">Selecione a função atual</option>
+                    <option value="Aluna">Aluna</option>
+                    <option value="Trabalho em tempo integral">Trabalho em tempo integral</option>
+                    <option value="Apendriz em tempo integral">Apendriz em tempo integral</option>
+                    <option value="Prefiro não dizer">Prefiro não dizer</option>
+                    <option value="Outros">Outros</option>
+                </select>
+            </div>
+            <div>
+                <p>Você recomendaria o freeCodeCamp a um amigo?</p>
+                <label for="idef">
+                    <input type="radio" name="list" id="idef">
+                    <span>Definitivamente</span>
+                </label> <br>
+                <label for="ipode">
+                    <input type="radio" name="list" id="ipode">
+                    <span>Pode ser</span>
+                </label> <br>
+                <label for="inao">
+                    <input type="radio" name="nao" id="inao">
+                    <span>Não tenho certeza</span>
+                </label>
+            </div>
+        </form>
+        Qual é o seu recurso favorito do freeCodeCamp?
+        
+        
+        Selecione uma opção
+        O que você gostaria de ver melhorado? (Marque todos os que se aplicam)
+        
+        
+        Projetos front-end
+        
+        Projetos de back-end
+        
+        Visualização de dados
+        
+        Desafios
+        
+        Comunidade de código aberto
+        
+        Salas de ajuda do Gitter
+        
+        Vídeos
+        
+        Encontros da Cidade
+        
+        Wiki
+        
+        Fórum
+        
+        Cursos adicionais
+        Algum comentário ou sugestão?
+    </main>
+</body>
+</html>
