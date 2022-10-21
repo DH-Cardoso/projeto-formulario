@@ -35,14 +35,21 @@ body {
     margin: 3.125rem auto 0px auto;
 }
 
+#cabecalho {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
 #cabecalho h1, p {
     margin-top: 0;
     margin-bottom: 8px;
 }
 
 #cabecalho h1 {
+    font-size: 32px;
     font-weight: 400;
-    line-height: 1.2rem;
+    line-height: 1.9rem;
 }
 
 #cabecalho p {
@@ -52,8 +59,30 @@ body {
     text-shadow: 1px 1px 1px rgb(0 0 0 / 40%);
 }
 
-#cabecalho {
-    text-align: center;
-    padding: 10px;
-    margin-bottom: 30px;
+.conteudo {
+    background-color: rgba(27, 27, 50, 0.750);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2em;
+}
+
+#iform {
+    padding: 40px;
+}
+
+.caixa {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+.digitar {
+    margin-top: 4px;
+    width: 95vh;
+    padding: 8px;
+    border-radius: 5px;
+    
 }

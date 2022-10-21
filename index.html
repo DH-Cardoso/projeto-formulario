@@ -13,24 +13,24 @@
             <h1>Formulário de Pesquisa freeCodeCamp</h1>
             <p>Obrigado por dedicar seu tempo para nos ajudar a melhorar a plataforma</p>
         </header>
-        <main>
+        <main class="conteudo">
             <form action="#" name="form" id="iform" autocomplete="on" method="post">
-                <div>
+                <div class="caixa">
                     <label for="inome">Nome</label> <br>
-                    <input type="text" name="nome" id="inome" placeholder="Digite seu nome" required>
+                    <input type="text" name="nome" id="inome" placeholder="Digite seu nome" class="digitar" required>
                 </div>
-                <div>
+                <div class="caixa">
                     <label for="iemail">E-mail</label> <br>
-                    <input type="email" name="email" id="iemal" placeholder="Digite seu e-mail" required>
+                    <input type="email" name="email" id="iemal" placeholder="Digite seu e-mail" class="digitar"  required>
                 </div>
-                <div>
+                <div class="caixa">
                     <label for="iera">Era</label>
                     <span>(opcional)</span> <br>
-                    <input type="number" name="era" id="iera" min="10" max="99" value="Era" placeholder="Era">
+                    <input type="number" name="era" id="iera" min="10" max="99" value="Era" class="digitar"  placeholder="Era">
                 </div>
-                <div>
-                    <p>Qual opção melhor descreve sua função atual?</p> <br>
-                    <select name="funcao" id="ifuncao" required>
+                <div class="caixa">
+                    <p>Qual opção melhor descreve sua função atual?</p> 
+                    <select name="funcao" id="ifuncao" class="digitar"  required>
                         <option disabled="" selected="" value="">Selecione a função atual</option>
                         <option value="Aluna">Aluna</option>
                         <option value="Trabalho em tempo integral">Trabalho em tempo integral</option>
@@ -39,7 +39,7 @@
                         <option value="Outros">Outros</option>
                     </select>
                 </div>
-                <div>
+                <div class="caixa">
                     <p>Você recomendaria o freeCodeCamp a um amigo?</p>
                     <label for="idef">
                         <input type="radio" name="list" id="idef" checked>
@@ -54,9 +54,9 @@
                         <span>Não tenho certeza</span>
                     </label>
                 </div>
-                <div>
+                <div class="caixa">
                     <p>Qual é o seu recurso favorito do freeCodeCamp?</p>
-                    <select name="recursos" id="irecursos" required>
+                    <select name="recursos" id="irecursos" class="digitar"  required>
                         <option value="" disabled selected >Selecione um opção</option>
                         <option value="Desafios">Desafios</option>
                         <option value="Projetos">Projetos</option>
@@ -111,7 +111,7 @@
                         <span>Cursos adicionais</span>
                     </label>
                 </div>
-                <div>
+                <div class="caixa">
                     <p>Algum comentário ou sugestão?</p>
                     <textarea name="comet" id="icomet" placeholder="Digite seu comentário aqui..."></textarea>
                 </div>
